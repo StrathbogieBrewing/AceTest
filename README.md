@@ -1,13 +1,13 @@
-# ACETEST
+# AceTest
 A very light weight test framework in a single header file. Suitable for embedded systems with limited resources such as AVR, PIC etc.
 
 ## Example
 
-The example demo.c demonstrates how to use ACETEST.
+The example demo.c demonstrates how to use AceTest. A CMake file is provided to build the example.
 
-When ACETEST is disabled none of the test code will reach the compiled binary.
+When AceTest is disabled none of the test code will reach the compiled binary.
 
-To include the test functions in the build ACETEST_ENABLED must be defined before including the acetest header.
+To include the test functions in the build ACETEST_ENABLED must be defined before including the AceTest header file.
 
 ## Customisation
 
