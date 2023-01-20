@@ -17,7 +17,7 @@ ACETEST_FUNCTION(test_2) {
 void acetest_callback(const char *name, int line) {
     if (line < 0) {
         printf("ACETEST : fail in %s line %d\n", name, -line);
-        exit(-1);
+        exit(EXIT_FAILURE);
     } else {
         printf("ACETEST : pass in %s line %d\n", name, line);
     }
